@@ -1,0 +1,115 @@
+body {
+    background-image: url("../images/backgroundimage.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    margin: 20px;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    background-color: #f7ffef;
+    padding: 10px 0px;
+}
+nav .logo{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+nav .logo .a{
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(79, 78, 78);
+    font-weight: 600;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+}
+nav ul li a:hover{
+    color: black;
+    
+}
+.btn{
+    background-color: #01b671;
+    padding: 10px 25px;
+    border-radius: 30px;
+    color: black;
+    transition: 0.4s ease-in-out;
+    text-decoration: none;  /*need in future styling of button*/
+}
+.btn:hover{
+    background-color: #31a25e;
+}
+h1 {
+    text-align: center;
+}
+
+.contact-form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+/*styling feature boxes and section*/
+
+.feature{
+    background-color: white;
+    height: 50vh;
+    padding: 0 100px;   /*--padding of each section will be the sameas much needed-*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxes{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: 0.3s case-in-out;
+}   
+.boxes:hover{
+    box-shadow: 0px 5px 15px #bdbdbd;
+    cursor: pointer;
+}
+.boxes h2{
+    font-size: 18px;
+    color: rgb(49, 48, 48);
+    margin: 5px 0;
+}
+.boxes p{
+    color: rgb(131, 131, 131);
+}
+.al-shadow{
+    box-shadow: 0px 5px 15px #dbdbdb;
+    
+}
